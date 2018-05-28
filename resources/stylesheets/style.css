@@ -39,7 +39,7 @@ div.grid-wrap {
 
 /*HEADER*/
 header {
-  background-image: url(https://github.com/cheapphonerepairs/cheapphonerepairs/blob/master/resources/assets/img/blur-iphonex-1.jpg);
+  background-image: url('blur-iphonex-1.jpg');
   background-size: cover;
   background-position: center;
   height: 35rem;
