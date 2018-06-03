@@ -439,11 +439,11 @@ div.call-us a:hover {
   div.grid-wrap {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(12, 35rem);
+    grid-template-rows: repeat(12, 40rem);
   }
 
   div.info {
-    height: 35rem;
+    height: 40rem;
   }
 
   div.half-grid {
@@ -453,16 +453,20 @@ div.call-us a:hover {
   /*TEXT RULES*/
   .info h1 {
     font-size: 4rem;
+    border: 0.1rem solid white;
+    border-radius: 10px;
+    padding: 1.5rem;
   }
 
   .info p {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     text-align: justify;
     padding: 0 1rem 0 1rem;
   }
 
   .info span {
-
+    font-size: 3rem;
+    font-weight: 100;
   }
 
   div.data-recovery p {
@@ -527,14 +531,41 @@ div.call-us a:hover {
     height: 15rem;
   }
 
+  /* MAIN-IN */
+  div.mail-in span a {
+    padding: 1rem;
+    border: 0.1rem solid white;
+    border-radius: 20px;
+  }
+
+  /* DATA RECOVERY */
+  div.data-recovery h1 {
+    font-size: 5rem;
+  }
+
+  /* GAME CONSOLE REPAIRS */
+  div.game-console h1 {
+    font-size: 3.5rem;
+  }
+
   /*CONTACT*/
   div.contact {
     background-position: center;
   }
 
   /*FAQ*/
+  div.faq li {
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: 0.5rem;
+  }
 
-}
+  div.faq p {
+    font-size: 1.4rem;
+    padding-bottom: 0.5rem;
+  }
+
 
 /*iPhone 5 Series*/
 @media only screen and (max-device-width: 568px) and (min-device-width: 320px) {
