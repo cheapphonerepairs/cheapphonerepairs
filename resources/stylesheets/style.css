@@ -22,7 +22,7 @@ div.info-container {
   width: 768px;
   margin: 0 auto;
 
-  /*border: 2px solid white;*/
+  /* border: 2px solid red; */
 }
 
 a {
@@ -124,6 +124,7 @@ div.info {
   text-transform: uppercase;
 
   border: 0.09rem solid white;
+  border-radius: 5px;
   padding: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -213,7 +214,7 @@ div.general-repairs {
 
 /*DATA RECOVERY*/
 div.data-recovery {
-  background-image: url(https://s33.postimg.cc/w5zxiys0f/usb-3.jpg);
+  background-image: url(https://s33.postimg.cc/7fwutcdu5/usb-3.jpg);
   background-size: cover;
   background-position: center;
 
@@ -344,7 +345,7 @@ div.footer-flex {
   /*margin-bottom: 18rem;*/
 }
 
-a:nth-child(2) {
+a:nth-child(4) {
   margin-left: auto;
 }
 
@@ -358,6 +359,11 @@ div.footer-flex a:hover {
 
 footer img {
   height: 1.5rem;
+  filter: invert(1);
+}
+
+footer img:hover {
+  filter: invert(0.5);
 }
 
 div.store-info {
@@ -425,7 +431,7 @@ div.call-us a:hover {
 @media only screen and (max-device-width: 812px) and (min-device-width: 375px) {
   /*CONTAINER RULES*/
   div.mobile-container {
-    width: 768px;
+    width: 812px;
     margin: 0 auto;
   }
 
@@ -433,7 +439,11 @@ div.call-us a:hover {
   div.grid-wrap {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(12, 25rem);
+    grid-template-rows: repeat(12, 35rem);
+  }
+
+  div.info {
+    height: 35rem;
   }
 
   div.half-grid {
@@ -442,13 +452,13 @@ div.call-us a:hover {
 
   /*TEXT RULES*/
   .info h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .info p {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
     text-align: justify;
-    padding: 0 2rem 0 2rem;
+    padding: 0 1rem 0 1rem;
   }
 
   .info span {
@@ -456,7 +466,7 @@ div.call-us a:hover {
   }
 
   div.data-recovery p {
-    padding: 0 2rem 0 2rem;
+    padding: 0 1rem 0 1rem;
   }
 
   div.banner hr {
