@@ -527,11 +527,11 @@ p.outside {
 
   /*HEADER*/
   header {
-    height: 25rem;
+    height: 32rem;
   }
 
   div.logo-container {
-    height: 25rem;
+    height: 32rem;
   }
 
   div > .logo-container > img {
