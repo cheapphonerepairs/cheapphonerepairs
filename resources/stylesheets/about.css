@@ -246,31 +246,175 @@ div.about h1 {
     padding-bottom: 0.5rem;
   }
 
+  /* MEDIA QUERIES */
 
-/*iPhone 5 Series*/
-@media only screen and (max-device-width: 568px) and (min-device-width: 320px) {
+  /* MOBILE */
+  /*iPhoneX,  iPhone 6Plus and iPhone 6*/
+  @media only screen and (max-device-width: 812px) and (min-device-width: 375px) {
+    /*CONTAINER RULES*/
+    div.mobile-container {
+      width: 812px;
+      margin: 0 auto;
+    }
 
-  /*NAV and FOOTER RULES*/
-  ul.nav-flex {
-    font-size: 1.7rem;
-    padding: 2.2rem 0;
+    /* GRID RULES */
+    div.grid-wrap {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(12, 40rem);
+    }
+
+    div.info {
+      height: 40rem;
+    }
+
+    div.half-grid {
+      grid-column: 1 / -1;
+    }
+
+    /*TEXT RULES*/
+    .info h1 {
+      font-size: 4rem;
+      border: 0.1rem solid white;
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+
+    .info p {
+      font-size: 2.5rem;
+      text-align: justify;
+      padding: 0 1rem 0 1rem;
+    }
+
+    .info span {
+      font-size: 3rem;
+      font-weight: 100;
+    }
+
+    div.data-recovery p {
+      padding: 0 1rem 0 1rem;
+    }
+
+    div.banner hr {
+      width: 90%;
+    }
+
+    div.faq li {
+      padding: 0 2rem 0 2rem;
+    }
+
+    /*NAV and FOOTER RULES*/
+    ul.nav-flex {
+      font-size: 1.7rem;
+      padding: 2.2rem 0;
+    }
+
+    div.footer-flex a {
+      padding: 0 1.2rem 0 1.2rem;
+    }
+
+    div.footer-items {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 14rem 2rem;
+      padding-left: 2rem;
+    }
+
+    div.footer-items h2 {
+      font-size: 0.65rem;
+    }
+
+    div.footer-items li {
+      font-size: 0.55rem;
+    }
+
+    div.store-info span {
+      font-size: 0.4rem;
+      padding-left: 0rem;
+    }
+
+    div.store-info p {
+      font-size: 0.35rem;
+    }
+
+    footer hr {
+      width: 95%;
+    }
+
+    /*HEADER*/
+    header {
+      height: 25rem;
+    }
+
+    div.logo-container {
+      height: 25rem;
+    }
+
+    div > .logo-container > img {
+      height: 15rem;
+    }
+
+    /* MAIN-IN */
+    div.mail-in span a {
+      padding: 1rem;
+      border: 0.1rem solid white;
+      border-radius: 20px;
+    }
+
+    /* DATA RECOVERY */
+    div.data-recovery h1 {
+      font-size: 5rem;
+    }
+
+    /* GAME CONSOLE REPAIRS */
+    div.game-console h1 {
+      font-size: 3.5rem;
+    }
+
+    /*CONTACT*/
+    div.contact {
+      background-position: center;
+    }
+
+    /* ABOUT US */
+
+    /*FAQ*/
+    div.faq li {
+      font-size: 2rem;
+      font-weight: 500;
+      font-style: italic;
+      padding-bottom: 0.5rem;
+    }
+
+    div.faq p {
+      font-size: 1.4rem;
+      padding-bottom: 0.5rem;
+    }
+
+
+  /*iPhone 5 Series*/
+  @media only screen and (max-device-width: 568px) and (min-device-width: 320px) {
+
+    /*NAV and FOOTER RULES*/
+    ul.nav-flex {
+      font-size: 1.7rem;
+      padding: 2.2rem 0;
+    }
+
+    /*FOOTER ITEMS*/
+    div.footer-items h2 {
+      font-size: 0.65rem;
+    }
+
+    div.footer-items li {
+      font-size: 0.55rem;
+    }
+
+    div.store-info span {
+      font-size: 0.37rem;
+      padding-left: 0rem;
+    }
+
+    div.store-info p {
+      font-size: 0.35rem;
+    }
   }
-
-  /*FOOTER ITEMS*/
-  div.footer-items h2 {
-    font-size: 0.65rem;
-  }
-
-  div.footer-items li {
-    font-size: 0.55rem;
-  }
-
-  div.store-info span {
-    font-size: 0.37rem;
-    padding-left: 0rem;
-  }
-
-  div.store-info p {
-    font-size: 0.35rem;
-  }
-}
