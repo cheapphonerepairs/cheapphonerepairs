@@ -484,6 +484,10 @@ div.call-us a:hover {
     padding: 2.2rem 0;
   }
 
+  footer {
+    text-align: center;
+  }
+
   div.footer-flex {
     display: flex;
     justify-content: center;
