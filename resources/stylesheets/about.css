@@ -439,7 +439,7 @@ div.call-us a:hover {
   div.grid-wrap {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 70rem);
+    grid-template-rows: repeat(2, 65rem);
   }
 
   div.info {
@@ -484,13 +484,19 @@ div.call-us a:hover {
     padding: 2.2rem 0;
   }
 
-  div.footer-flex a {
-    padding: 0 1.2rem 0 1.2rem;
+  div.footer-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  a.link {
+    display: none;
   }
 
   footer img {
-    padding-top: 2rem;
-    height: 5rem;
+    padding-top: 5rem;
+    padding-left: 1.5rem;
+    height: 7rem;
   }
 
   div.footer-items {
