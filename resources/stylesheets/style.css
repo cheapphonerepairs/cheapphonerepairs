@@ -37,6 +37,39 @@ div.grid-wrap {
   grid-template-rows: repeat(10, 25rem);
 }
 
+/*INFO RULES*/
+
+div.info {
+  height: 25rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.info h1 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  border: 0.09rem solid white;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.info p {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.info span {
+  margin-top: 2rem;
+}
+
 /*HEADER*/
 header {
   background-image: url(https://s33.postimg.cc/hugfe2p9p/blur-iphonex-1.jpg);
@@ -103,39 +136,6 @@ div.banner hr {
   width: 100%;
   margin-bottom: 1rem;
   opacity: 0.7;
-}
-
-/*INFO RULES*/
-
-div.info {
-  height: 25rem;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.info h1 {
-  font-family: 'Oxygen', sans-serif;
-  font-size: 2.2rem;
-  font-weight: 500;
-  text-transform: uppercase;
-
-  border: 0.09rem solid white;
-  border-radius: 5px;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.info p {
-  font-size: 1.3rem;
-  text-align: justify;
-}
-
-.info span {
-  margin-top: 2rem;
 }
 
 /*MAIN-IN REPAIRS*/
@@ -552,6 +552,8 @@ div.call-us a:hover {
   div.contact {
     background-position: center;
   }
+
+  /* ABOUT US */
 
   /*FAQ*/
   div.faq li {
