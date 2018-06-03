@@ -423,7 +423,13 @@ div.call-us a:hover {
   text-decoration: underline;
 }
 
-
+/* FOOTER MOBILE ITEMS */
+div.f-nav {
+  visibility: hidden;
+}
+p.outside {
+  visibility: hidden;
+}
 /* MEDIA QUERIES */
 
 /* MOBILE */
@@ -500,6 +506,15 @@ div.call-us a:hover {
   footer img {
     padding: 5rem 1.5rem 2rem 1.5rem;
     height: 7rem;
+  }
+
+  div.f-nav {
+    visibility: visible;
+  }
+
+  p.outside {
+    visibility: visible;
+    padding-top: 3rem;
   }
 
   div.footer-items {

@@ -423,6 +423,13 @@ div.call-us a:hover {
   text-decoration: underline;
 }
 
+/* FOOTER MOBILE ITEMS */
+div.f-nav {
+  visibility:
+}
+p.outside {
+  visibility: hidden;
+}
 
 /* MEDIA QUERIES */
 
