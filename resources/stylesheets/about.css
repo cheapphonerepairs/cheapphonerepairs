@@ -488,6 +488,11 @@ div.call-us a:hover {
     padding: 0 1.2rem 0 1.2rem;
   }
 
+  footer img {
+    padding-top: 2rem;
+    height: 5rem;
+  }
+
   div.footer-items {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 14rem 2rem;
@@ -576,6 +581,9 @@ div.call-us a:hover {
   }
 
   /*FOOTER ITEMS*/
+div.store-info {
+  display: none;
+}
   div.footer-items h2 {
     font-size: 0.65rem;
   }
