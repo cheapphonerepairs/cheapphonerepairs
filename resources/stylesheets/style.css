@@ -431,7 +431,7 @@ div.call-us a:hover {
 @media only screen and (max-device-width: 812px) and (min-device-width: 375px) {
   /*CONTAINER RULES*/
   div.mobile-container {
-    width: 812px;
+    width: 768px;
     margin: 0 auto;
   }
 
