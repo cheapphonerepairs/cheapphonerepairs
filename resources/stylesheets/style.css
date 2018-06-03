@@ -425,7 +425,7 @@ div.call-us a:hover {
 
 /* FOOTER MOBILE ITEMS */
 div.f-nav {
-  visibility:
+  visibility: hidden;
 }
 p.outside {
   visibility: hidden;
