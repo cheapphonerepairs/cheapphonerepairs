@@ -481,11 +481,11 @@ p.outside {
   div.grid-wrap {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(5, 85rem);
+    grid-template-rows: repeat(5, 100rem);
   }
 
   div.info {
-    height: 85rem;
+    height: 100rem;
   }
 
   div.half-grid {
@@ -646,33 +646,33 @@ p.outside {
   } */
 
   div.faq li {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     font-weight: 500;
     font-style: italic;
     padding-bottom: 0.5rem;
   }
 
   div.faq p {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     padding-bottom: 1rem;
   }
 
   /* WARRANTY */
   div.mail-in li {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
   }
 
   div.mail-in p {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     padding-bottom: 2rem;
   }
   /* RETURNS */
   div.in-store li {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
   }
 
   div.in-store p {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     padding-bottom: 2rem;
   }
 
