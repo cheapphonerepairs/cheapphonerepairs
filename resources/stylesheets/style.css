@@ -171,6 +171,10 @@ div.in-store {
   grid-column: 1 / -1;
 }
 
+div.in-store h1 {
+  margin-top: 6rem;
+}
+
 div.in-store p {
   padding-bottom: 1rem;
 }
@@ -193,7 +197,7 @@ div.in-store span a {
 a.info-link {
   visibility: hidden;
   font-size: 3rem;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   padding: 1.5rem;
   border: 2px solid white;
   border-radius: 20px;
@@ -588,7 +592,7 @@ p.outside {
   div.mail-in span a {
     font-weight: 400;
     font-size: 3rem;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     padding: 1.5rem;
     border: 2px solid white;
     border-radius: 20px;
@@ -602,11 +606,23 @@ p.outside {
     display: none;
   }
 
-a.info-link {
-  visibility: visible;
-}
+  div.in-store p {
+    margin-bottom: 2rem;
+  }
+
+  div.in-store h1 {
+    margin-top: 0;
+  }
+
+  a.info-link {
+    visibility: visible;
+  }
 
   /* DATA RECOVERY */
+  div.data-recovery {
+    background-image: url(https://s33.postimg.cc/ln0y7wuan/usb-3-mobile.jpg);
+  }
+
   div.data-recovery h1 {
     font-size: 5rem;
   }
