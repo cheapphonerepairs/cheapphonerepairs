@@ -581,6 +581,7 @@ p.outside {
   /* BANNER */
   div.banner span {
     font-size: 1.5rem;
+    font-weight: 400;
   }
 
   /* MAIN-IN */
