@@ -186,7 +186,7 @@ div.in-store span a:hover {
   color: #5b5b5b;
 }
 
-div.in-store span {
+div.in-store span a {
   margin-top: 1.5rem;
 }
 
@@ -580,9 +580,15 @@ p.outside {
 
   /* MAIN-IN */
   div.mail-in span a {
-    padding: 1rem;
-    border: 0.1rem solid white;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    border: 2px solid white;
     border-radius: 20px;
+    color: #292929;
+    background-color: white;
+    opacity: 0.6;
   }
 
   /* IN-STORE */
