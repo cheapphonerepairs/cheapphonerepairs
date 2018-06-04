@@ -34,13 +34,13 @@ a {
 div.grid-wrap {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(9, 25rem);
+  grid-template-rows: repeat(8, 28rem);
 }
 
 /*INFO RULES*/
 
 div.info {
-  height: 25rem;
+  height: 30rem;
 
   display: flex;
   flex-direction: column;
@@ -446,7 +446,7 @@ p.outside {
   div.grid-wrap {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(11, 40rem);
+    grid-template-rows: repeat(10, 40rem);
   }
 
   div.info {
@@ -494,8 +494,35 @@ p.outside {
     padding: 2.2rem 0;
   }
 
-  div.footer-flex a {
-    padding: 0 1.2rem 0 1.2rem;
+  footer {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  div.footer-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  a.link {
+    display: none;
+  }
+
+  footer img {
+    padding: 4.5rem 1.5rem 2rem 1.5rem;
+    height: 7rem;
+  }
+
+  div.f-nav {
+    visibility: visible;
+  }
+
+  p.outside {
+    visibility: visible;
+    padding-top: 3rem;
   }
 
   div.footer-items {
@@ -527,7 +554,7 @@ p.outside {
 
   /*HEADER*/
   header {
-    height: 32rem;
+    height: 30rem;
   }
 
   div.logo-container {
@@ -563,6 +590,12 @@ p.outside {
   /* ABOUT US */
 
   /*FAQ*/
+  div.faq {
+    background-image: url(file:///Users/JedSingh/Documents/GitHub/cheapphonerepairs/resources/assets/img/long-lightbulb-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
   div.faq li {
     font-size: 2rem;
     font-weight: 500;
