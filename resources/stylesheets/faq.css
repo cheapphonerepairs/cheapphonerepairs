@@ -34,19 +34,19 @@ a {
 div.grid-wrap {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 28rem);
+  grid-template-rows: repeat(5, 30rem);
 }
 
 /*INFO RULES*/
 
 div.info {
-  height: 28rem;
+  height: 30rem;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: center;
 }
 
 .info h1 {
@@ -55,8 +55,9 @@ div.info {
   font-weight: 500;
   text-transform: uppercase;
 
-  border: 0.09rem solid white;
-  border-radius: 5px;
+  /* border: 0.09rem solid white; */
+  /* border-radius: 5px; */
+  border: none;
   padding: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -140,9 +141,8 @@ div.banner hr {
 
 /*MAIN-IN REPAIRS*/
 div.mail-in {
-  background-image: url(https://s33.postimg.cc/y5gjafc27/darkblur-mail-1.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: #e8e9ed;
+  color: #5b5b5b;
 
   grid-column: 1 / -1;
 }
@@ -164,9 +164,8 @@ div.mail-in span a:hover {
 
 /*IN-STORE REPAIRS*/
 div.in-store {
-  background-image: url(https://s33.postimg.cc/le2d3xpfh/darkblur-opensign-1.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: #e8e9ed;
+  color: #5b5b5b;
 
   grid-column: 1 / -1;
 }
@@ -214,9 +213,8 @@ div.general-repairs {
 
 /*DATA RECOVERY*/
 div.data-recovery {
-  background-image: url(https://s33.postimg.cc/7fwutcdu5/usb-3.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: #e8e9ed;
+  color: #5b5b5b;
 
   grid-column: 1 / -1;
 }
@@ -256,7 +254,7 @@ div.game-console {
 div.contact {
   background-image: url(https://s33.postimg.cc/o85ihdc67/telephone-1.jpg);
   background-size: cover;
-  background-position: right;
+  background-position: left;
   color: #5b5b5b;
 
   grid-column: 1 / -1;
@@ -294,12 +292,10 @@ div.about h1 {
 
 /*FAQ*/
 div.faq {
-  background-image: url(https://s33.postimg.cc/vo4s3550f/long-lightbulb.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: #e8e9ed;
+  color: #5b5b5b;
 
   grid-column: 1 / -1;
-  grid-row: 1 / 2;
   color: #5b5b5b;
 }
 
@@ -331,39 +327,12 @@ div.faq span a:hover {
   color: white;
 }
 
-/* WARRANTY */
-div.warranty {
-  background-color: white;
-  color: #5b5b5b;
-
-  grid-column: 1 / -1;
-  grid-row: 2 / 3;
-}
-
-/* RETURNS */
-div.returns {
-  background-color: white;
-  color: #5b5b5b;
-
-  grid-column: 1 / -1;
-  grid-row: 3 / 4;
-}
-
-/* EXTRA INFO */
-div.extra-info {
-  background-color: white;
-  color: #5b5b5b;
-
-  grid-column: 1 / -1;
-  grid-row: 4 / 5;
-}
 /*FOOTER*/
 footer {
   background-color: #292929;
   opacity: 0.95;
 
   grid-column: 1 / -1;
-  grid-row: 5 / -1;
 }
 
 div.footer-flex {
@@ -458,6 +427,7 @@ div.f-nav {
 p.outside {
   visibility: hidden;
 }
+
 /* MEDIA QUERIES */
 
 /* MOBILE */
@@ -472,29 +442,28 @@ p.outside {
   /* GRID RULES */
   div.grid-wrap {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 65rem);
   }
 
   div.info {
-    height: 40rem;
+    height: 65rem;
+  }
+
+  div.half-grid {
+    grid-column: 1 / -1;
   }
 
   /*TEXT RULES*/
   .info h1 {
     font-size: 4rem;
-    border: 0.1rem solid white;
-    border-radius: 10px;
+    /* border: 0.1rem solid white;
+    border-radius: 10px; */
     padding: 1.5rem;
-    margin-top: 20rem;
-  }
-
-  div.info ul li {
-    font-size: 2.5rem;
   }
 
   .info p {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     text-align: justify;
     padding: 0 1rem 0 1rem;
   }
@@ -520,6 +489,10 @@ p.outside {
   ul.nav-flex {
     font-size: 1.7rem;
     padding: 2.2rem 0;
+  }
+
+  footer {
+    text-align: center;
   }
 
   footer {
@@ -578,15 +551,15 @@ p.outside {
 
   /*HEADER*/
   header {
-    height: 25rem;
+    height: 30rem;
   }
 
   div.logo-container {
-    height: 25rem;
+    height: 32rem;
   }
 
   div > .logo-container > img {
-    height: 15rem;
+    height: 20rem;
   }
 
   /* MAIN-IN */
@@ -608,19 +581,18 @@ p.outside {
 
   /*CONTACT*/
   div.contact {
-    background-image: url(https://s33.postimg.cc/5rbnl3hlr/telephone-1mobile.jpg);
-    background-size: cover;
     background-position: center;
   }
 
   /* ABOUT US */
 
   /*FAQ*/
-  div.faq {
-    background-image: url(https://s33.postimg.cc/byn1l5q6n/long-lightbulb-mobile.jpg);
+  /* div.faq {
+    background-image: url(https://s33.postimg.cc/eav1ix2tr/long-lightbulb-mobile.jpg);
     background-size: cover;
     background-position: center;
-  }
+  } */
+
   div.faq li {
     font-size: 2rem;
     font-weight: 500;
@@ -644,9 +616,9 @@ p.outside {
   }
 
   /*FOOTER ITEMS*/
-div.store-info {
-  display: none;
-}
+  div.store-info {
+    display: none;
+  }
   div.footer-items h2 {
     font-size: 0.65rem;
   }
