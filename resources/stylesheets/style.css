@@ -190,6 +190,18 @@ div.in-store span {
   margin-top: 1.5rem;
 }
 
+a.info-link {
+  visibility: hidden;
+  font-size: 3rem;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: #292929;
+  background-color: white;
+
+}
+
 /*MICRO SOLDERING*/
 div.micro {
   background-image: url(https://s33.postimg.cc/su1mpq5f3/dark-pcb-3.jpg);
@@ -571,6 +583,15 @@ p.outside {
     border: 0.1rem solid white;
     border-radius: 20px;
   }
+
+  /* IN-STORE */
+  div.in-store span {
+    display: none;
+  }
+
+a.info-link {
+  visibility: visible;
+}
 
   /* DATA RECOVERY */
   div.data-recovery h1 {
