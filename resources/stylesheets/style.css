@@ -578,6 +578,11 @@ p.outside {
     height: 20rem;
   }
 
+  /* BANNER */
+  div.banner span {
+    font-size: 1.5rem;
+  }
+
   /* MAIN-IN */
   div.mail-in span a {
     font-weight: 400;
