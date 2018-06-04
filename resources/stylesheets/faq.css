@@ -257,7 +257,7 @@ div.data-recovery p {
   padding-bottom: 0.5rem;
 }
 
-div.data-recovery span a {
+/* div.data-recovery span a {
   padding: 0.5rem;
   border: 0.09rem solid #5b5b5b;
   border-radius: 10px;
@@ -267,7 +267,7 @@ div.data-recovery span a {
 div.data-recovery span a:hover {
   background-color: #5b5b5b;
   color: white;
-}
+} */
 
 /*COMPUTER REPAIRS*/
 div.computer {
@@ -609,6 +609,18 @@ p.outside {
   /* DATA RECOVERY */
   div.data-recovery h1 {
     font-size: 5rem;
+  }
+
+  div.data-recovery li {
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: 1rem;
+  }
+
+  div.data-recovery p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
   }
 
   /* GAME CONSOLE REPAIRS */
