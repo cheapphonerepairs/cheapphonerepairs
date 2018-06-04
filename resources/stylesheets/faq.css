@@ -337,7 +337,7 @@ div.faq {
   color: #5b5b5b;
 }
 
-div.faq ul {
+div.faq {
   text-align: left;
 }
 
@@ -481,11 +481,11 @@ p.outside {
   div.grid-wrap {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(5, 65rem);
+    grid-template-rows: repeat(5, 85rem);
   }
 
   div.info {
-    height: 65rem;
+    height: 85rem;
   }
 
   div.half-grid {
@@ -653,10 +653,28 @@ p.outside {
   }
 
   div.faq p {
-    font-size: 1.4rem;
-    padding-bottom: 0.5rem;
+    font-size: 1.65rem;
+    padding-bottom: 1rem;
   }
 
+  /* WARRANTY */
+  div.mail-in li {
+    font-size: 2rem;
+  }
+
+  div.mail-in p {
+    font-size: 1.65rem;
+    padding-bottom: 2rem;
+  }
+  /* RETURNS */
+  div.in-store li {
+    font-size: 2.3rem;
+  }
+
+  div.in-store p {
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+  }
 
 /*iPhone 5 Series*/
 @media only screen and (max-device-width: 568px) and (min-device-width: 320px) {
