@@ -34,19 +34,19 @@ a {
 div.grid-wrap {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 28rem);
+  grid-template-rows: repeat(5, 28rem);
 }
 
 /*INFO RULES*/
 
 div.info {
-  height: 25rem;
+  height: 28rem;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .info h1 {
@@ -299,6 +299,7 @@ div.faq {
   background-position: center;
 
   grid-column: 1 / -1;
+  grid-row: 1 / 2;
   color: #5b5b5b;
 }
 
@@ -330,12 +331,39 @@ div.faq span a:hover {
   color: white;
 }
 
+/* WARRANTY */
+div.warranty {
+  background-color: white;
+  color: #5b5b5b;
+
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+}
+
+/* RETURNS */
+div.returns {
+  background-color: white;
+  color: #5b5b5b;
+
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+}
+
+/* EXTRA INFO */
+div.extra-info {
+  background-color: white;
+  color: #5b5b5b;
+
+  grid-column: 1 / -1;
+  grid-row: 4 / 5;
+}
 /*FOOTER*/
 footer {
   background-color: #292929;
   opacity: 0.95;
 
   grid-column: 1 / -1;
+  grid-row: 5 / -1;
 }
 
 div.footer-flex {
@@ -445,7 +473,7 @@ p.outside {
   div.grid-wrap {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 65rem);
+    grid-template-rows: repeat(5, 65rem);
   }
 
   div.info {
@@ -461,8 +489,12 @@ p.outside {
     margin-top: 20rem;
   }
 
-  .info p {
+  div.info ul li {
     font-size: 2.5rem;
+  }
+
+  .info p {
+    font-size: 1.8rem;
     text-align: justify;
     padding: 0 1rem 0 1rem;
   }

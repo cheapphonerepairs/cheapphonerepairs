@@ -34,7 +34,7 @@ a {
 div.grid-wrap {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(8, 28rem);
+  grid-template-rows: repeat(7, 30rem);
 }
 
 /*INFO RULES*/
@@ -446,7 +446,7 @@ p.outside {
   div.grid-wrap {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(10, 40rem);
+    grid-template-rows: repeat(9, 40rem);
   }
 
   div.info {
