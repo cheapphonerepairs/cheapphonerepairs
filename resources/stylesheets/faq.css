@@ -621,7 +621,7 @@ p.outside {
 
   div.data-recovery p {
     font-size: 1.7rem;
-    color: #5b5b5b;
+    color: #5b5b5b!important;
     padding-bottom: 1rem;
 
   }
