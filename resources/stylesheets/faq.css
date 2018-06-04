@@ -34,13 +34,13 @@ a {
 div.grid-wrap {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 30rem);
+  grid-template-rows: repeat(5, 42rem);
 }
 
 /*INFO RULES*/
 
 div.info {
-  height: 30rem;
+  height: 42rem;
 
   display: flex;
   flex-direction: column;
@@ -160,7 +160,7 @@ div.mail-in li {
 
 div.mail-in p {
   font-size: 0.95rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 div.mail-in span a {
@@ -350,7 +350,7 @@ div.faq li {
 
 div.faq p {
   font-size: 0.95rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 div.faq span a {
