@@ -255,6 +255,7 @@ div.data-recovery li {
 div.data-recovery p {
   font-size: 0.95rem;
   padding-bottom: 0.5rem;
+  color: #5b5b5b;
 }
 
 /* div.data-recovery span a {
@@ -612,15 +613,17 @@ p.outside {
   }
 
   div.data-recovery li {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 500;
     font-style: italic;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
   }
 
   div.data-recovery p {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
+    color: #5b5b5b;
     padding-bottom: 1rem;
+
   }
 
   /* GAME CONSOLE REPAIRS */
