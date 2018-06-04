@@ -252,20 +252,20 @@ div.data-recovery li {
   padding-bottom: 0.5rem;
 }
 
-div.data-recovery p {
+div.data-recovery p, p a {
   font-size: 0.95rem;
   padding-bottom: 0.5rem;
   color: #5b5b5b;
 }
 
-/* div.data-recovery span a {
+/* div.data-recovery p a {
   padding: 0.5rem;
   border: 0.09rem solid #5b5b5b;
   border-radius: 10px;
   color: #5b5b5b;
 }
 
-div.data-recovery span a:hover {
+div.data-recovery p a:hover {
   background-color: #5b5b5b;
   color: white;
 } */
@@ -619,9 +619,9 @@ p.outside {
     padding-bottom: 1rem;
   }
 
-  div.data-recovery p {
+  div.data-recovery p, p a {
     font-size: 1.7rem;
-    color: #5b5b5b!important;
+    color: #5b5b5b;
     padding-bottom: 1.5rem;
 
   }
