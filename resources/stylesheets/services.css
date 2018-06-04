@@ -1,0 +1,720 @@
+/*UNIVERSAL*/
+body {
+  font-size: 16px;
+  color: white;
+}
+
+div.main-container {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+
+  /*border: 2px solid blue;*/
+}
+
+div.site-container {
+  width: 960px;
+  margin: 0 auto;
+
+  /*border: 2px solid red;*/
+}
+
+div.info-container {
+  width: 768px;
+  margin: 0 auto;
+
+  /* border: 2px solid red; */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*GRID RULES*/
+div.grid-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 42rem);
+}
+
+/*INFO RULES*/
+
+div.info {
+  height: 42rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.info h1 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  /* border: 0.09rem solid white; */
+  /* border-radius: 5px; */
+  border: none;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.info p {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.info span {
+  margin-top: 2rem;
+}
+
+/*HEADER*/
+header {
+  background-image: url(https://s33.postimg.cc/hugfe2p9p/blur-iphonex-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35rem;
+}
+
+div.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35rem;
+
+}
+
+div > .logo-container > img {
+  height: 15rem;
+}
+
+/*NAVIGATION*/
+nav#nav-bar {
+  background-color: #292929;
+  opacity: 0.95;
+
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+ul.nav-flex {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 0.95rem;
+  padding: 0.75rem 0;
+}
+
+nav li a:hover {
+  color: #a9a9a9;
+}
+
+/*BANNER*/
+div.banner {
+  background-image: url(https://s33.postimg.cc/n5vbysqrz/dark-iphone6-2.jpg);
+  background-size: cover;
+  background-position: center;
+  /*height: 20rem;*/
+
+  grid-column: 1 / -1;
+}
+
+div.banner h1 {
+  border: none;
+  margin-bottom: 0rem;
+}
+
+div.banner p {
+  font-style: italic;
+}
+
+div.banner hr {
+  width: 100%;
+  margin-bottom: 1rem;
+  opacity: 0.7;
+}
+
+/*MAIN-IN REPAIRS*/
+div.mail-in {
+  background-color: #e8e9ed;
+  color: #5b5b5b;
+
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  height: 90rem;
+}
+
+div.mail-in h1 {
+  padding-top: 30rem;
+}
+
+div.mail-in ul {
+  text-align: left;
+}
+
+div.mail-in li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 0.5rem;
+}
+
+div.mail-in p {
+  font-size: 0.95rem;
+  padding-bottom: 1rem;
+}
+
+div.mail-in span a {
+  padding: 0.5rem;
+  border: 0.09rem solid #5b5b5b;
+  border-radius: 10px;
+  color: #5b5b5b;
+}
+
+div.mail-in span a:hover {
+  background-color: #5b5b5b;
+  color: white;
+}
+
+/*IN-STORE REPAIRS*/
+div.in-store {
+  background-color: #e8e9ed;
+  color: #5b5b5b;
+
+  grid-column: 1 / -1;
+}
+
+div.in-store ul {
+  text-align: left;
+}
+
+div.in-store li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 0.5rem;
+}
+
+div.in-store p {
+  font-size: 0.95rem;
+  padding-bottom: 0.5rem;
+}
+
+div.in-store span a {
+  padding: 0.5rem;
+  border: 0.09rem solid #5b5b5b;
+  border-radius: 10px;
+  color: #5b5b5b;
+}
+
+div.in-store span a:hover {
+  background-color: #5b5b5b;
+  color: white;
+}
+
+/*MICRO SOLDERING*/
+div.micro {
+  background-image: url(https://s33.postimg.cc/su1mpq5f3/dark-pcb-3.jpg);
+  background-size: cover;
+  background-position: center;
+
+  grid-column: 1 / 2;
+}
+
+.half-grid p {
+  padding: 0 1.7rem 0 1.7rem;
+}
+
+/*GENERAL REPAIRS*/
+div.general-repairs {
+  background-image: url(https://s33.postimg.cc/y5gjaf4cf/dark-cracked-3.jpg);
+  background-size: cover;
+  background-position: center;
+
+  grid-column: 2 / -1;
+}
+
+/*DATA RECOVERY*/
+div.data-recovery {
+  background-color: #e8e9ed;
+  color: #5b5b5b;
+
+  grid-column: 1 / -1;
+}
+
+div.data-recovery ul {
+  text-align: left;
+}
+
+div.data-recovery li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 0.5rem;
+}
+
+div.data-recovery p, p a {
+  font-size: 0.95rem;
+  padding-bottom: 0.5rem;
+  color: #5b5b5b;
+}
+
+/* div.data-recovery p a {
+  padding: 0.5rem;
+  border: 0.09rem solid #5b5b5b;
+  border-radius: 10px;
+  color: #5b5b5b;
+}
+
+div.data-recovery p a:hover {
+  background-color: #5b5b5b;
+  color: white;
+} */
+
+/*COMPUTER REPAIRS*/
+div.computer {
+  background-image: url(https://s33.postimg.cc/xfxqy1w33/dark-macbook-1.jpg);
+  background-size: cover;
+  background-position: center;
+
+  grid-column: 1 / 2;
+}
+
+/*GAME CONSOLE REPAIRS*/
+div.game-console {
+  background-image: url(https://s33.postimg.cc/rhjxnvakf/ps4.jpg);
+  background-size: cover;
+  background-position: center;
+
+  grid-column: 2 / -1;
+}
+
+/*CONTACT*/
+div.contact {
+  background-image: url(https://s33.postimg.cc/o85ihdc67/telephone-1.jpg);
+  background-size: cover;
+  background-position: left;
+  color: #5b5b5b;
+
+  grid-column: 1 / -1;
+}
+
+div.contact h1 {
+  border: none;
+}
+
+div.contact p {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+div.contact a {
+  color: #5b5b5b;
+}
+
+div.contact a:hover {
+  color: #a9a9a9;
+}
+
+/*ABOUT*/
+div.about {
+  background-image: url(https://s33.postimg.cc/p6qgxihhr/dark-iphonex-5.jpg);
+  background-size: cover;
+  background-position: left;
+
+  grid-column: 1 / -1;
+}
+
+div.about h1 {
+  border: none;
+}
+
+/*FAQ*/
+div.faq {
+  background-color: #e8e9ed;
+  color: #5b5b5b;
+
+  grid-column: 1 / -1;
+  color: #5b5b5b;
+}
+
+div.faq {
+  text-align: left;
+}
+
+div.faq li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 0.5rem;
+}
+
+div.faq p {
+  font-size: 0.95rem;
+  padding-bottom: 1rem;
+}
+
+div.faq span a {
+  padding: 0.5rem;
+  border: 0.09rem solid #5b5b5b;
+  border-radius: 10px;
+  color: #5b5b5b;
+}
+
+div.faq span a:hover {
+  background-color: #5b5b5b;
+  color: white;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #292929;
+  opacity: 0.95;
+
+  grid-column: 1 / -1;
+  grid-row: 3 / -1;
+}
+
+div.footer-flex {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0;
+  /*margin-bottom: 18rem;*/
+}
+
+a:nth-child(4) {
+  margin-left: auto;
+}
+
+div.footer-flex a {
+  padding-left: 1.5rem;
+}
+
+div.footer-flex a:hover {
+  color: #a9a9a9;
+}
+
+footer img {
+  height: 1.5rem;
+  filter: invert(1);
+}
+
+footer img:hover {
+  filter: invert(0.5);
+}
+
+div.store-info {
+  text-align: center;
+}
+
+div.store-info hr.hr1 {
+  /*margin-bottom: 17rem;*/
+}
+
+div.store-info span {
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+}
+
+div.store-info p {
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+}
+
+/*FOOTER ITEMS*/
+div.footer-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 14rem 1.7rem;
+
+  text-align: left;
+}
+
+div.footer-items h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: 0.5rem;
+  padding-bottom: 0.3rem;
+}
+
+div.footer-items li {
+  font-size: 0.8rem;
+  padding: 0.3rem 0;
+}
+
+div.call-us {
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+}
+
+div.footer-items li a:hover {
+  text-decoration: underline;
+}
+
+div.footer-items h2 a:hover {
+  text-decoration: underline;
+}
+
+div.call-us a:hover {
+  color: #a9a9a9;
+  text-decoration: underline;
+}
+
+/* FOOTER MOBILE ITEMS */
+div.f-nav {
+  visibility: hidden;
+}
+p.outside {
+  visibility: hidden;
+}
+
+/* MEDIA QUERIES */
+
+/* MOBILE */
+/*iPhoneX,  iPhone 6Plus and iPhone 6*/
+@media only screen and (max-device-width: 812px) and (min-device-width: 375px) {
+  /*CONTAINER RULES*/
+  div.mobile-container {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  /* GRID RULES */
+  div.grid-wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 90rem);
+    background-color: #e8e9ed;
+  }
+
+  div.info {
+    height: 100rem;
+  }
+
+  div.half-grid {
+    grid-column: 1 / -1;
+  }
+
+  /*TEXT RULES*/
+  .info h1 {
+    font-size: 4rem;
+    /* border: 0.1rem solid white;
+    border-radius: 10px; */
+    padding: 1.5rem;
+  }
+
+  .info p {
+    font-size: 2.5rem;
+    text-align: justify;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .info span {
+    font-size: 3rem;
+    font-weight: 100;
+  }
+
+  div.data-recovery p {
+    padding: 0 1rem 0 1rem;
+  }
+
+  div.banner hr {
+    width: 90%;
+  }
+
+  div.faq li {
+    padding: 0 2rem 0 2rem;
+  }
+
+  /*NAV and FOOTER RULES*/
+  ul.nav-flex {
+    font-size: 1.7rem;
+    padding: 2.2rem 0;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  div.footer-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  a.link {
+    display: none;
+  }
+
+  footer img {
+    padding: 4.5rem 1.5rem 2rem 1.5rem;
+    height: 7rem;
+  }
+
+  div.f-nav {
+    visibility: visible;
+  }
+
+  p.outside {
+    visibility: visible;
+    padding-top: 3rem;
+  }
+
+  div.footer-items {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 14rem 2rem;
+    padding-left: 2rem;
+  }
+
+  div.footer-items h2 {
+    font-size: 0.65rem;
+  }
+
+  div.footer-items li {
+    font-size: 0.55rem;
+  }
+
+  div.store-info span {
+    font-size: 0.4rem;
+    padding-left: 0rem;
+  }
+
+  div.store-info p {
+    font-size: 0.35rem;
+  }
+
+  footer hr {
+    width: 95%;
+  }
+
+  /*HEADER*/
+  header {
+    height: 30rem;
+  }
+
+  div.logo-container {
+    height: 32rem;
+  }
+
+  div > .logo-container > img {
+    height: 20rem;
+  }
+
+  /* MAIN-IN */
+  div.mail-in span a {
+    padding: 1rem;
+    border: 0.1rem solid white;
+    border-radius: 20px;
+  }
+
+  div.mail-in h1 {
+    margin-top: 40rem;
+  }
+
+  /* ADDITIONAL INFO */
+  div.data-recovery h1 {
+    font-size: 5rem;
+  }
+
+  div.data-recovery li {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: 1rem;
+  }
+
+  div.data-recovery p, p a {
+    font-size: 1.7rem;
+    color: #5b5b5b;
+    padding-bottom: 1.5rem;
+
+  }
+
+  /* GAME CONSOLE REPAIRS */
+  div.game-console h1 {
+    font-size: 3.2rem;
+  }
+
+  /*CONTACT*/
+  div.contact {
+    background-position: center;
+  }
+
+  /* ABOUT US */
+
+  /*FAQ*/
+  /* div.faq {
+    background-image: url(https://s33.postimg.cc/eav1ix2tr/long-lightbulb-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+  } */
+
+  div.faq li {
+    font-size: 2.4rem;
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: 0.5rem;
+  }
+
+  div.faq p {
+    font-size: 1.9rem;
+    padding-bottom: 1rem;
+  }
+
+  /* WARRANTY */
+  div.mail-in li {
+    font-size: 2.4rem;
+  }
+
+  div.mail-in p {
+    font-size: 1.9rem;
+    padding-bottom: 2rem;
+  }
+  /* RETURNS */
+  div.in-store li {
+    font-size: 2.4rem;
+  }
+
+  div.in-store p {
+    font-size: 1.9rem;
+    padding-bottom: 2rem;
+  }
+
+/*iPhone 5 Series*/
+@media only screen and (max-device-width: 568px) and (min-device-width: 320px) {
+
+  /*NAV and FOOTER RULES*/
+  ul.nav-flex {
+    font-size: 1.7rem;
+    padding: 2.2rem 0;
+  }
+
+  /*FOOTER ITEMS*/
+  div.store-info {
+    display: none;
+  }
+  div.footer-items h2 {
+    font-size: 0.65rem;
+  }
+
+  div.footer-items li {
+    font-size: 0.55rem;
+  }
+
+  div.store-info span {
+    font-size: 0.37rem;
+    padding-left: 0rem;
+  }
+
+  div.store-info p {
+    font-size: 0.35rem;
+  }
+}
