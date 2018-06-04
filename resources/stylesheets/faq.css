@@ -147,19 +147,32 @@ div.mail-in {
   grid-column: 1 / -1;
 }
 
+div.mail-in ul {
+  text-align: left;
+}
+
+div.mail-in li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 0.5rem;
+}
+
 div.mail-in p {
-  padding-bottom: 5rem;
+  font-size: 0.95rem;
+  padding-bottom: 0.5rem;
 }
 
 div.mail-in span a {
   padding: 0.5rem;
-  border: 0.09rem solid white;
+  border: 0.09rem solid #5b5b5b;
   border-radius: 10px;
+  color: #5b5b5b;
 }
 
 div.mail-in span a:hover {
-  background-color: white;
-  color: #5b5b5b;
+  background-color: #5b5b5b;
+  color: white;
 }
 
 /*IN-STORE REPAIRS*/
@@ -170,23 +183,32 @@ div.in-store {
   grid-column: 1 / -1;
 }
 
+div.in-store ul {
+  text-align: left;
+}
+
+div.in-store li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 0.5rem;
+}
+
 div.in-store p {
-  padding-bottom: 1rem;
+  font-size: 0.95rem;
+  padding-bottom: 0.5rem;
 }
 
 div.in-store span a {
   padding: 0.5rem;
-  border: 0.09rem solid white;
+  border: 0.09rem solid #5b5b5b;
   border-radius: 10px;
-}
-
-div.in-store span a:hover {
-  background-color: white;
   color: #5b5b5b;
 }
 
-div.in-store span {
-  margin-top: 1.5rem;
+div.in-store span a:hover {
+  background-color: #5b5b5b;
+  color: white;
 }
 
 /*MICRO SOLDERING*/
@@ -219,17 +241,32 @@ div.data-recovery {
   grid-column: 1 / -1;
 }
 
-div.data-recovery h1 {
-  font-size: 3.5rem;
-  color: #ed4b48;
-  /*border: 0.09rem solid #ed4b48;*/
-  border: none;
+div.data-recovery ul {
+  text-align: left;
+}
+
+div.data-recovery li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 0.5rem;
 }
 
 div.data-recovery p {
+  font-size: 0.95rem;
+  padding-bottom: 0.5rem;
+}
+
+div.data-recovery span a {
+  padding: 0.5rem;
+  border: 0.09rem solid #5b5b5b;
+  border-radius: 10px;
   color: #5b5b5b;
-  padding-left: 0;
-  padding-right: 0;
+}
+
+div.data-recovery span a:hover {
+  background-color: #5b5b5b;
+  color: white;
 }
 
 /*COMPUTER REPAIRS*/
