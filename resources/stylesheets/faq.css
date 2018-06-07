@@ -469,7 +469,7 @@ p.outside {
 
 /* MOBILE */
 /*iPhoneX,  iPhone 6Plus and iPhone 6*/
-@media only screen and (max-device-width: 812px) and (min-device-width: 375px) {
+@media only screen and (max-device-width: 812px) and (min-device-width: 375px), (max-device-width: 568px) and (min-device-width: 320px){
   /*CONTAINER RULES*/
   div.mobile-container {
     width: 768px;
